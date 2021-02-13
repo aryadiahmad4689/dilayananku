@@ -231,6 +231,7 @@ return [
         // jwt
         'JWTAuth' => 'Tymon\JWTAuth\Facades\JWTAuth',
         'JWTFactory' => 'Tymon\JWTAuth\Facades\JWTFactory',
+        'jwt.verify' => \App\Http\Middleware\JwtMiddleware::class,
 
     ],
 

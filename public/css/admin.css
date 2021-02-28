@@ -1,0 +1,123 @@
+/* sidebar */
+
+.sidebar{
+    box-shadow: 1px 0 1px 1px gray;
+    width: 260px;
+    height: 40rem;
+}
+
+.sidebar ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 24px;
+    padding-bottom: 2rem;
+    padding-left: 0.6rem;
+    color: #504D4D;
+
+
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    color: #504D4D;
+}
+
+.sidebar li .actived{
+    background-color: blue;
+    padding: 0.6rem;
+    border-radius:8px;
+    color: white;
+    margin-right: 1rem;
+    padding-right: 2.5rem;
+}
+
+.sidebar ul li img{
+    padding-bottom: 6px;
+}
+.sidebar ul li .actived object{
+    color: white;
+    fill: wheat;
+}
+.icon{
+ fill: orange;
+
+}
+
+#icon-dashboard{
+    fill: white;
+}
+
+object{
+    color: white;
+    fill: white;
+}
+.sidebar .user-capil{
+    padding-left: 4rem;
+    font-size: 20px;
+}
+.icon-sidebar{
+    color: red;
+}
+
+
+/* end sidebar */
+
+/* utils */
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.w-full{
+    width: 100%;
+}
+
+/* end */
+
+/* data user */
+
+.data-user{
+    background-color:#2370C8;
+    border-radius: 6px 6px 0 0;
+
+}
+
+.more-info{
+background-color: #2370C8;
+opacity: 60%;
+border-radius:0 0 6px 6px;
+
+
+}
+
+.more-info h5{
+    color: white;
+    font-size: 15px;
+    padding: 4px;
+}
+
+/* end */
+
+/* pie chart*/
+
+.pie{
+    /* border: 1px #504D4D solid; */
+    box-shadow: #8F8686 1px 2px 1px 1px ;
+}
+
+.info{
+    background-color: #2C64B4;
+}
+
+.info h3{
+    padding-left: 12px;
+}
+/* end */

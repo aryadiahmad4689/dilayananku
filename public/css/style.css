@@ -1,0 +1,75 @@
+/* login */
+.login{
+    height:auto;
+    background: rgba(35, 112, 200, 0.8);
+    border-radius: 15px;
+    box-shadow:1px 1px rgba(35, 112, 200, 0.8) ;
+}
+
+.icon-login {
+    float: right;
+    margin-right: 6px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 2;
+    color: red;
+}
+
+/* end login */
+
+/* body */
+body{
+    background-color: rgba(35, 112, 200,0.8);
+
+}
+
+/* end body */
+.d-flex h4{
+    font-weight: bold;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position:absolute;
+}
+
+input{
+    border-radius: 50px;
+    outline: 0;
+    background: transparent;
+    border: 3px solid white;
+    width: 20rem;
+
+    -webkit-appearance: none;
+    padding: 10px
+}
+
+.button{
+    border-radius: 50px;
+    outline: 0;
+    background: transparent;
+    border: 3px solid white;
+    -webkit-appearance: none;
+    padding: 5px;
+    margin-left:7rem;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:white;
+  }
+
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color:white;
+  }
+
+
+

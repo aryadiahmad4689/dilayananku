@@ -19,8 +19,8 @@
 
 /* body */
 body{
-    background-color: rgba(35, 112, 200,0.8);
-
+    background-image: url('../images/bg-dilayananku.svg');
+    background-size: cover;
 }
 
 /* end body */

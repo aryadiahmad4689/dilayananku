@@ -1,7 +1,7 @@
 @extends('layout.main')
 @section('content')
 
-<section class="bg-primary">
+<section class="color-dilayananku">
 <div class="d-flex py-3 px-3">
     <img src="{{asset('images/dilayananku.svg')}}" class="" alt="" width="40" height="40">
     <h3 class="text-white mt-2 px-2">Di-Layananku</h3>

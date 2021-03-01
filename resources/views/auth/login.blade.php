@@ -5,17 +5,18 @@
     <div class="mx-auto" style="width:400px;">
      <div class="d-flex py-3 z-index relative">
          <img src="{{asset('images/dilayananku.png')}}" class="mt-5" alt="dilayananku" width="40" height="40">
-        <h1 class="text-white fw-bold pt-5 pl-3">Dilayananku</h1>
+        <h1 class="text-white fw-bold pt-5 pl-4">Dilayananku</h1>
     </div>
         <div class="login rounded">
         <div class="box">
         <div class="d-flex">
         <h4 class="text-white py-4 mx-auto text-bold">Selamat Datang Di Layanan Kami</h4>
         </div>
+
+        <div class="col col-10 mx-auto">
         <div class="d-flex">
         <h5 class="text-white pl-5 fw-bold">Masuk untuk melanjutkan</h5>
         </div>
-        <div class="col col-10 mx-auto">
         <div>
             <form action="{{route('login')}}" method="post">
                 @csrf

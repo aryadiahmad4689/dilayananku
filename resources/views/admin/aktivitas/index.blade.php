@@ -29,12 +29,124 @@
       <td>Syamsul</td>
       <td>E-KTP</td>
       <td>20/02/2020</td>
-      <td> <a href=""><img src="images/btn.edit.svg" alt=""></a>
+      <td> <a href="" data-toggle="modal" data-target="#verifikasiModal"><img src="images/btn.edit.svg" alt=""></a>
       </td>
 
     </tr>
   </tbody>
   </div>
+  <!-- modal -->
+  <div class="modal fade" id="verifikasiModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header color-dilayananku">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Verifikasi Data</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Nama</label>
+    <div class="col-sm-10">
+      <input type="text" readonly  class="form-control" id="staticEmail" value="Syamsul">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Jenis Layanan</label>
+    <div class="col-sm-10">
+      <input  readonly class="form-control" id="inputPassword" value="E-KTP">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Tanggal</label>
+    <div class="col-sm-10">
+      <input  readonly class="form-control" value="22/02/2020">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Berkas</label>
+
+  </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" >Verifikasi</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" data-toggle="modal" data-target="#chatModal">Tidak Lengkap</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal chat -->
+<div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header color-dilayananku">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Data Tidak Lengkap</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="">
+        <textarea class="form-control" size="14"></textarea>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Kirim</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal rekaman -->
+<div class="modal fade" id="rekamanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header color-dilayananku">
+        <h5 class="modal-title text-white" id="exampleModalLabel">Verifikasi Data</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Nama</label>
+    <div class="col-sm-10">
+      <input type="text" readonly  class="form-control" id="staticEmail" value="Syamsul">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Jenis Layanan</label>
+    <div class="col-sm-10">
+      <input  readonly class="form-control" id="inputPassword" value="E-KTP">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Tanggal</label>
+    <div class="col-sm-10">
+      <input  readonly class="form-control" value="22/02/2020">
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Komentar</label>
+    <textarea class="form-control" size="14"></textarea>
+  </div>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" >Kirim</button>
+        <button type="button" class="btn btn-danger" data-dismiss="modal" >Batal</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- end modal -->
 </section>
 
 @endsection

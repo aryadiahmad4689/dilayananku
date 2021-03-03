@@ -10,7 +10,7 @@
     <!-- <div class="fixed"> -->
 <div class="user-capil pt-4"><img src="images/Login2.svg" alt=""> Admin Capil</div>
 <hr>
-<ul class="py-4">
+<ul class="py-1">
 <li class="d-flex">
     <a href="" class="actived">
     <object type="image/svg+xml" data="images/dashboard.svg">

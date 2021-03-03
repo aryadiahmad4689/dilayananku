@@ -6,11 +6,6 @@
     height: 40rem;
 }
 
-.color-dilayananku{
-    background-color: #2370C8;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
 .sidebar ul li{
     text-decoration: none;
     list-style: none;
@@ -25,6 +20,16 @@
 .sidebar ul li a{
     text-decoration: none;
     color: #504D4D;
+    display:flex;
+}
+
+.sidebar ul li a span{
+    margin-left: 1rem;
+}
+
+.sidebar ul li a:hover{
+   font-weight: bold;
+   transition: 1ms;
 }
 
 .sidebar li .actived{
@@ -32,8 +37,9 @@
     padding: 0.6rem;
     border-radius:8px;
     color: white;
-    margin-right: 1rem;
-    padding-right: 2.5rem;
+    width: 200px;
+    margin-left: -8px !important;
+
 }
 
 .sidebar ul li img{
@@ -42,10 +48,6 @@
 .sidebar ul li .actived object{
     color: white;
     fill: wheat;
-}
-.icon{
- fill: orange;
-
 }
 
 #icon-dashboard{
@@ -57,18 +59,40 @@ object{
     fill: white;
 }
 .sidebar .user-capil{
-    padding-left: 4rem;
+    padding-left: 2.5rem;
     font-size: 20px;
+}
+
+.sidebar .user-capil img{
+    padding-right: 1rem;
 }
 .icon-sidebar{
     color: red;
 }
 
+use.icon{
+    fill: black;
+  }
 
 /* end sidebar */
 
 /* utils */
+html {
+    scroll-behavior: smooth;
+}
+.actived{
+    background-color:  rgba(35, 112, 200, 0.9);
+    border-radius:8px;
+    color: white;
+    margin: 12px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+
+.color-dilayananku{
+    background-color: #2370C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 .float-right{
     float: right;
 }
@@ -126,3 +150,30 @@ border-radius:0 0 6px 6px;
     padding-left: 12px;
 }
 /* end */
+
+/* aktivitas */
+
+.aktivitas{
+    box-shadow: 1px 0 1px 1px gray;
+}
+
+.aktivitas a{
+    margin-top: 4px;
+}
+
+.aktivitas a span{
+    color: rgba(80, 77, 77, 0.9);
+}
+
+.aktivitas .actived span{
+    color: white;
+}
+
+.aktivitas a:hover{
+    font-weight: bold;
+    color: rgba(80, 77, 77, 0.9);
+}
+
+
+
+/* end  */

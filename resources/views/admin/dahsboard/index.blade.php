@@ -1,35 +1,6 @@
 @extends('layout.main')
 @section('content')
 
-<section class="color-dilayananku">
-<div class="d-flex py-3 px-3">
-    <img src="{{asset('images/dilayananku.svg')}}" class="" alt="" width="40" height="40">
-    <h3 class="text-white mt-2 px-2">Di-Layananku</h3>
-</div>
-</section>
-
-<section>
-<div class="sidebar float-left relative">
-    <!-- <div class="fixed"> -->
-<div class="user-capil pt-4"><img src="images/Login2.svg" alt=""> Admin Capil</div>
-<hr>
-<ul class="py-4">
-<li>
-    <a href="" class="actived">
-    <object type="image/svg+xml" data="images/dashboard.svg">
-  </object>
-  <span clas="icon"></span>
-        Dashboard
-    </a>
-</li>
-<li><img src="images/aktivitas.svg" alt=""> Aktifitas</li>
-<li><img src="images/Search icon.svg" alt=""> Layanan</li>
-<li><img src="images/notifikasi.svg" alt=""> Notifikasi</li>
-</ul>
-<!-- </div> -->
-</div>
-</section>
-
 <section class="relative">
     <div class="row text-center mt-2">
         <div class="col-3">

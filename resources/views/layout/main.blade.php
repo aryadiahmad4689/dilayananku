@@ -16,6 +16,15 @@
 
     @yield('script2')
 
+    <script>
+window.scroll({
+  top: 2500,
+  left: 0,
+  behavior: 'smooth'
+});
+
+    </script>
+
     @include('layout.partial.script')
 </body>
 </html>

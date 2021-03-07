@@ -12,13 +12,21 @@
 <hr>
 <ul class="py-1">
 <li class="d-flex">
-    <a href="" class="actived">
+    <div class="{{ Route::is('dahsboard.index') ? 'actived' : ''}}">
+    <a  href="{{route('dahsboard.index')}}">
     <object type="image/svg+xml" data="images/dashboard.svg">
   </object>
         <span>Dashboard</span>
     </a>
+    </div>
 </li>
-<li><a href=""><img src="images/aktivitas.svg" alt=""> <span>Aktifitas</span></a></li>
+<li class="d-flex">
+<!--  -->
+<div class="{{ Route::is('aktivitas.index') ? 'actived' : ''}}">
+<a href="{{route('aktivitas.index')}}" ><img src="images/aktivitas.svg" alt=""> <span>Aktifitas</span>
+</a>
+</div>
+</li>
 <li><a href=""><img src="images/Search icon.svg" alt=""> <span>Layanan</span></a></li>
 <li><a href=""><img src="images/notifikasi.svg" alt=""> <span>Notifikasi</span></a></li>
 </ul>

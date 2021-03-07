@@ -41,14 +41,16 @@
     margin-left: -8px !important;
 
 }
+.sidebar li .actived a{
+
+    color: white;
+
+}
 
 .sidebar ul li img{
     padding-bottom: 6px;
 }
-.sidebar ul li .actived object{
-    color: white;
-    fill: wheat;
-}
+
 
 #icon-dashboard{
     fill: white;

@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/dashboard',[DashboardController::class,'index']);
-Route::get('/aktivitas',[AktivitasController::class,'index']);
+Route::get('/dashboard',[DashboardController::class,'index'])->name('dahsboard.index');
+Route::get('/aktivitas',[AktivitasController::class,'index'])->name('aktivitas.index');
 
 
 Auth::routes();

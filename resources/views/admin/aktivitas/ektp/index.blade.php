@@ -24,15 +24,18 @@
     </tr>
   </thead>
   <tbody>
+  @php
+    $no =1;
+  @endphp
+  @foreach($ektps as $item)
     <tr>
-      <th scope="row">1</th>
-      <td>Syamsul</td>
-      <td>E-KTP</td>
-      <td>20/02/2020</td>
-      <td> <a href="" data-toggle="modal" data-target="#verifikasiModal"><img src="images/btn.edit.svg" alt=""></a>
-      </td>
-
+      <th scope="row">{{$no++}}</th>
+      <td>{{$item->user[0]->name}}</td>
+      <td>{{Ektp}}</td>
+      <td>{{$item->created_at}}</td>
+      <td> <a href="" data-toggle="modal" data-target="#verifikasiModal" data-id="{{$item->id}}"><img src="images/btn.edit.svg" alt=""></a></td>
     </tr>
+ @endforeach
   </tbody>
   </div>
   <!-- modal -->
@@ -92,7 +95,7 @@
       </div>
       <div class="modal-body">
         <form action="">
-        <textarea class="form-control" size="14"></textarea>
+        <textarea class="form-control" name="message" size="14"></textarea>
         </form>
       </div>
       <div class="modal-footer">
@@ -114,6 +117,7 @@
       </div>
       <div class="modal-body">
 <div class="form-group row">
+    <input type="text" hidden id="rekamanId">
     <label for="staticEmail" class="col-sm-2 col-form-label">Nama</label>
     <div class="col-sm-10">
       <input type="text" readonly  class="form-control" id="staticEmail" value="Syamsul">
@@ -148,5 +152,22 @@
 
   <!-- end modal -->
 </section>
+
+@endsection
+
+
+@section('script2')
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#rekamanmodal').on('show.bs.modal', function (e) {
+            var getId = $(e.relatedTarget).data('id');
+            document.getElementById('rekamanId').val = getId;
+
+
+         });
+    });
+  </script>
+
 
 @endsection

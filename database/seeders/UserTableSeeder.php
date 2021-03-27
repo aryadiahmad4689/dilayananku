@@ -15,15 +15,17 @@ class UserTableSeeder extends Seeder
     {
         \App\Models\User::create([
             'name'  => 'Ariadi Ahmad',
-            'email' => "ariadiahmad". '@dilayananku.com',
-            'roles' => "Admin",
+            'email' => "ariadiahmad".'@dilayananku.com',
+            'role' => "Admin",
+            'alamat' => "Makassar",
             'password'  => bcrypt('secret')
         ]);
 
         \App\Models\User::create([
             'name'  => "Syamsul",
-            'email' => "syamsul". '@dilayananku.com',
-            'roles' => "SuperAdmin",
+            'email' => "syamsul".'@dilayananku.com',
+            'role' => "SuperAdmin",
+            'alamat' => 'Makassar',
             'password'  => bcrypt('secret')
         ]);
     }

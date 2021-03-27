@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\AktivitasController;
+use App\Http\Controllers\EktpAktivitasController;
 use App\Http\Controllers\DashboardController;
 use Illuminate\Support\Facades\Route;
 
@@ -14,10 +14,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/dashboard',[DashboardController::class,'index'])->name('dahsboard.index');
-Route::get('/aktivitas',[AktivitasController::class,'index'])->name('aktivitas.index');
-
+Route::get('/aktivitas',[EktpAktivitasController::class,'index'])->name('aktivitas.index');
 
 Auth::routes();
 

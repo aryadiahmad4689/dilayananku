@@ -121,6 +121,76 @@ html {
 
 }
 
+svg#icon-ktp{
+    fill:#A9CFF6;
+    float: right;
+    margin-right: 4px;
+}
+
+svg#icon-family{
+    fill:#FF6112;
+    float: right;
+    margin-right: 4px;
+}
+
+svg#icon-anak{
+    fill:#ED5669;
+    float: right;
+    margin-right: 4px;
+}
+
+svg#icon-perkawinan{
+    fill:#FFD34D;
+    float: right;
+    margin-right: 4px;
+}
+
+svg#icon-bayi{
+    fill:#ABF146;
+    float: right;
+    margin-right: 10px;
+}
+
+svg#icon-kematian{
+    fill:#ED5669;
+    float: right;
+    margin-right: 10px;
+}
+
+svg#icon-kependudukan{
+    fill:#ABF146;
+    float: right;
+    margin-right: 10px;
+}
+
+.bg-ektp{
+    background-color: #A9CFF6;
+}
+
+.bg-kk{
+    background-color: #FFF48F;
+}
+
+.bg-anak{
+    background-color: #F5BDC6;
+}
+
+.bg-perkawinan{
+    background-color: #FFE8C7;
+}
+
+.bg-kelahiran{
+    background-color: #D8F9FE;
+}
+
+.bg-kematian{
+    background-color: #F5BDC6;
+}
+
+.bg-kependudukan{
+    background-color: #D8F9FE;
+}
+
 .more-info{
 background-color: #2370C8;
 opacity: 60%;
@@ -131,7 +201,7 @@ border-radius:0 0 6px 6px;
 
 .more-info h5{
     color: white;
-    font-size: 15px;
+    font-size: 12px;
     padding: 4px;
 }
 
@@ -175,7 +245,5 @@ border-radius:0 0 6px 6px;
     font-weight: bold;
     color: rgba(80, 77, 77, 0.9);
 }
-
-
 
 /* end  */
